@@ -1,0 +1,12 @@
+<h1>Task Selected</h1>
+
+  
+<h2>Task '<%= @task.title %>'</h2>
+
+
+<p><strong>Details : </strong><%= @task.details %></p>
+<p><strong>Completed ? </strong><%= @task.completed %></p>
+
+<a><%= link_to 'Edit task', edit_task_path %></a>
+<br><br>
+<a><%= link_to 'Back to the list', tasks_path %></a>
